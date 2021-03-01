@@ -27,8 +27,7 @@ and open the template in the editor.
             // Get standard webgl, or experimental
             // binds webgl to the Canvas area on the web-page to the variable "gl"
             // "gl" will be the context upon which we access all webGL functionality
-            var gl = canvas.getContext("webgl") ||
-                canvas.getContext("experimental-webgl");
+            var gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
 
             if (gl !== null) {
                 gl.clearColor(0.0, 0.8, 0.0, 1.0);  // set the color to be cleared

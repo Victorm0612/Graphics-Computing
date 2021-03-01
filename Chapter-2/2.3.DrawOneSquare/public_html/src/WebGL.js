@@ -17,8 +17,7 @@ function initializeGL() {
 
     // Get standard webgl, or experimental
     // binds webgl to the Canvas area on the web-page to the global variable "gGL"
-    gGL = canvas.getContext("webgl") ||
-        canvas.getContext("experimental-webgl");
+    gGL = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
 
     if (gGL !== null) {
         gGL.clearColor(0.0, 0.8, 0.0, 1.0);  // set the color to be cleared

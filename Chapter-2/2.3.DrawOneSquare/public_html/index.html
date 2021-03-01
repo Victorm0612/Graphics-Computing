@@ -11,9 +11,9 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!-- everything in-between the <script> tag is javascript -->
         <script type="x-shader/x-vertex" id="VertexShader">
-            // this is the vertex shader 
+            //this is the vertex shader 
             attribute vec3 aSquareVertexPosition;  // Vertex shader expects one vertex position
-                            // naming convention, attributes always begin with "a"
+            // naming convention, attributes always begin with "a"
 
             void main(void) {
                 // Convert the vec3 into vec4 for scan conversion and
@@ -24,7 +24,7 @@ and open the template in the editor.
         </script>
 
         <script type="x-shader/x-fragment" id="FragmentShader">
-            // this is the fragment (or pixel) shader
+            //this is the fragment (or pixel) shader
             void main(void) {
                 // for every pixel called (within the square) sets
                 // constant color white with alpha-channel value of 1.0

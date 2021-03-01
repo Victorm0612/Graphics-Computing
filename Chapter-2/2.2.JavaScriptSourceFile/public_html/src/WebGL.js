@@ -12,8 +12,7 @@ var gGL = null;
 // Initialize the webGL by binding the functionality to the gGL variable
 function initializeGL() {
  var canvas = document.getElementById("GLCanvas");
- gGL = canvas.getContext("webgl") ||
- canvas.getContext("experimental-webgl");
+ gGL = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
  if (gGL !== null) {
      gGL.clearColor(0.0, 0.8, 0.0, 1.0); // set the color to be cleared
  } else {
