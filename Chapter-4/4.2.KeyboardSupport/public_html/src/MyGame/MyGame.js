@@ -61,6 +61,9 @@ whiteXform.incXPosBy(deltaX);
 if (gEngine.Input.isKeyClicked(gEngine.Input.keys.Up))
 whiteXform.incRotationByDegree(1);
 var redXform = this.mRedSq.getXform();
+if (gEngine.Input.isKeyClicked(gEngine.Input.keys.Left))
+whiteXform.incRotationByDegree(-1);
+var redXform = this.mRedSq.getXform();
 // Step C: test for pulsing the red square
 if (gEngine.Input.isKeyPressed(gEngine.Input.keys.Down)) {
 if (redXform.getWidth() > 5)
