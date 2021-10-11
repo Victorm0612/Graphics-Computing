@@ -9,5 +9,5 @@ WASD - Move hero
 Left Click - Shoot
 
 ## Rules
-* If the minion touches the hero, you lose.
+* If the minion touches the hero twice, you lose.
 * If you shoot the final boss twenty times, you win
