@@ -5,8 +5,8 @@ Here we going to do a lot of projects about the book called "Build your own 2D G
 * [Víctor Manuel Vargas Rojas - 1842274](https://github.com/Victorm0612/)
 
 ## How to play final project
-WASD - Move hero
-Left Click - Shoot
+* WASD - Move hero
+* Left Click - Shoot
 
 ## Rules
 * If the minion touches the hero twice, you lose.
